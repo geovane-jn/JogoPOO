@@ -24,11 +24,17 @@ public abstract class Inimigo extends Criatura {
         int danoReduzido = this.defesa.danoReduzido(dano);
         super.tomaDano(danoReduzido);
     }
-    
+
+    public int getAtaque() {
+        return this.ataque;
+    }
+
     public void setAtaque(int ataque) {
         this.ataque = ataque;
     }
+
     public void setDefesa(Defesa defesa) {
+
         this.defesa = defesa;
     }
     
