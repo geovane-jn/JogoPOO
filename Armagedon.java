@@ -1,6 +1,6 @@
 public class Armagedon extends Inimigo {
     public Armagedon() {
-        super("Armagedon", 600, 150, new DefesaMista(15, 30));
+        super("Armagedon", 600, 150, new DefesaMista(10, 20));
     }
 
     @Override

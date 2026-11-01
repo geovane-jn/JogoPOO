@@ -26,7 +26,7 @@ public class Jogo {
         }
 
         System.out.println("\nEscolha uma arma de longa distância:");
-        System.out.println("1) Arco e flecha (dano: 200 - chance: 60% - munição: 5)");
+        System.out.println("1) Arco e flecha (dano: 200 - chance: 70% - munição: 5)");
         System.out.println("2) Pistola (dano: 150 - chance: 80% - munição: 4)");
         int escLonga = sc.nextInt();
         while (escLonga < 1 || escLonga > 2) {

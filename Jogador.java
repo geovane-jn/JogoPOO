@@ -55,11 +55,11 @@ public class Jogador extends Criatura {
 
     @Override
     public void fraseApresentacao() {
-        System.out.println("Não contava com minha astúcia!");
+        System.out.println("Chama!");
     }
 
     @Override
     public void fraseMorte() {
-        System.out.println("pipipipipipipipi");
+        System.out.println("O bem sempre vence no final...");
     }
 }
